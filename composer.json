@@ -1,0 +1,12 @@
+{ 
+    "autoload": {
+        "psr-4": {"Acme\\": "src/",
+                "Anyo\\": "./src/"
+                
+                }
+    },
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "symfony/finder": "^8.0"
+    }
+}
